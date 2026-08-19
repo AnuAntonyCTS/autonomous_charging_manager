@@ -1,0 +1,18 @@
+autonomous_charging_manager_node:
+  ros__parameters:
+
+    robot_mode: "m20"
+
+    low_battery_threshold: 20
+
+    resume_battery_threshold: 80
+
+    charging_x: 5.0
+    charging_y: 3.0
+    charging_yaw: 0.0
+
+    navigation_timeout_seconds: 60
+
+    max_navigation_retries: 3
+    
+    
